@@ -1,0 +1,45 @@
+<!-- Challenge 1: The "User Profile" Form
+The Goal: Create a form with three rows that includes a "Help" column on the far right.
+
+Column 1: Labels (Right-aligned).
+
+Column 2: Input fields (Text, Password, Email).
+
+Column 3: A small piece of "hint" text in italics (e.g., Required or Max 10 chars).
+
+Constraint: Use cellpadding="10" to give the form a spacious, modern feel. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+<body>
+    <h1 align="center">User profile Form</h1>
+    <form action="">
+        <table cellpadding="10" cellspacing="5">
+
+            <tr>
+                <td><label for="username">Username<label></td>
+                <td><input type="text" name="" id="" placeholder="Enter your Username"></td>
+                <td align="right"><label for="username"><em> Hint: sandeepshahk3</em></label></td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password<label></td>
+                <td><input type="password" name="" id="password" placeholder="Enter your Password"></td>
+                <td align="right"><label for="password"><em> Hint: $$th***rkj</em></label></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email id<label></td>
+                <td><input type="email" name="" id="email" placeholder="Enter your Email-id"></td>
+                <td align="right"><label for="email"><em> Hint: Sandeep@gmail.com</em></label></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
