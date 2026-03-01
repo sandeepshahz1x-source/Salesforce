@@ -1,0 +1,41 @@
+<!-- Challenge 2: The "Shipping & Billing" Layout
+The Goal: Practice using the colspan attribute to create section headers within your table.
+
+The Header: Create a row at the top where a single <td> spans across both columns to say "Shipping Address" in bold.
+
+The Fields: Standard rows for Name, City, and Zip Code.
+
+The Checkbox: Create a row at the bottom where the checkbox and the text "Same as billing" both sit in the second column (leaving the first column empty). -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping & Billing</title>
+</head>
+<body>
+    <h1>Shipping & Billing</h1>
+    <table border="1" cellpadding="15" cellspacing="1">
+        <tr>
+            <td colspan="2" align="center"><b>Shipping Address</b></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="name" id="name"></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><input type="text" name="city" id="city"></td>
+        </tr>
+        <tr>
+            <td>Zip Code</td>
+            <td><input type="text" name="zip" id="zip"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="same_as_billing" id="same_as_billing"><label for="same_as_billing">Same as billing</label></td>
+        </tr>
+    </table>
+    
+</body>
+</html>

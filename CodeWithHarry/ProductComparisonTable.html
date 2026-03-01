@@ -1,0 +1,60 @@
+<!-- Challenge 2: Product Comparison Table
+Goal: Combine rowspan and colspan effectively. Create a table where the first row contains an empty first cell followed by three cells labeled Basic Plan, Standard Plan, and Premium Plan. Below that, add rows for features such as Storage, Support, Custom Domain, and Analytics. Insert a row labeled “Price” in the first column and display the prices in bold in the remaining columns. At the bottom, add a row where the first column is empty and the remaining three columns contain “Select Plan” buttons. -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Comparison Table</title>
+  </head>
+  <body>
+    <table border="1" cellspacing="0" cellpadding="10">
+      <tr>
+        <td></td>
+        <td>Basic Plan</td>
+        <td>Standard Plan</td>
+        <td>Premium Plan</td>
+      </tr>
+
+      <tr>
+        <td>Storage</td>
+        <td>10 GB</td>
+        <td>100 GB</td>
+        <td>1 TB</td>
+      </tr>
+      <tr>
+        <td>Support</td>
+        <td>Email Only</td>
+        <td>Email + Chat</td>
+        <td>24/7 Phone & Chat</td>
+      </tr>
+      <tr>
+        <td>Custom Domain</td>
+        <td>✗</td>
+        <td>✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Analytics</td>
+        <td>Basic</td>
+        <td>Advanced</td>
+        <td>Full Suite</td>
+      </tr>
+
+      <tr>
+        <td>Price</td>
+        <td><b>$5/mo</b></td>
+        <td><b>$15/mo</b></td>
+        <td><b>$30/mo</b></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td><button>Select Plan</button></td>
+        <td><button>Select Plan</button></td>
+        <td><button>Select Plan</button></td>
+      </tr>
+    </table>
+  </body>
+</html>

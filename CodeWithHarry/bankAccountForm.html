@@ -1,0 +1,86 @@
+<!-- Challenge 1: Bank Account Opening Form
+Goal: Practice nested tables + alignment.
+Top Section:
+Create a row spanning 3 columns:
+Bank Account Application
+Personal Details:
+Name
+Date of Birth
+Address (textarea spanning 2 columns)
+Nationality
+Account Type Section:
+Add a row where first column says:
+Account Type
+Second column contains:
+Savings
+Current
+Business (radio buttons)
+Declaration Section:
+A row where a checkbox + declaration text appear only in the second column.
+First column remains empty. -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Account Opening Form</title>
+  </head>
+  <body>
+    <table border="1" cellspacing="0" cellpadding="10" align="center">
+      <tr>
+        <td colspan="3" align="center"><h2>Bank Account Application</h2></td>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your Name here"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Date of Birth</td>
+        <td>
+          <input type="date" name="dob" id="dob" />
+        </td>
+      </tr>
+      <tr>
+        <td>Address</td>
+        <td colspan="2">
+          <textarea
+            name="address"
+            id="address"
+            placeholder="Enter your Address here"
+          ></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>Nationality</td>
+        <td>
+           <input
+            type="text"
+            name="nationality"
+            id="nationality"/>
+        </td>
+      </tr>
+      <tr>
+        <td>Account type</td>
+        <td><input type="radio" name="Savings" id="savings">Savings <br>
+            <input type="radio" name="Current" id="current">Current <br>
+            <input type="radio" name="Business" id="business">Business
+        </td>
+         <tr>
+            <td></td>
+            <td colspan="2">
+                <input type="checkbox"> I hereby declare that the information provided is true to the best of my knowledge.
+            </td>
+        </tr>
+    </table>
+      </tr>
+    </table>
+  </body>
+</html>
