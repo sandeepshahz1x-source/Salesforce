@@ -1,0 +1,36 @@
+#Magenta{
+    color: darkmagenta;
+}
+button{
+    background: linear-gradient(to right, purple, yellow);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+header{
+    padding-bottom: 20px;
+}
+div{
+    
+    text-align: center;
+    padding-bottom: 40px;
+}
+#HeaderPara{
+    font-size: 14px;
+    color: grey;
+}
+#divPara{
+    font-size: 14px;
+}
+footer{
+    text-align: center;
+    background-color: palevioletred;
+    padding: 10px;
+    
+}
+ol{
+    margin:auto;
+    width: 3%;
+}
