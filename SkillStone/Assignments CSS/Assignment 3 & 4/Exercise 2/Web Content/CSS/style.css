@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.entire {
+  background: linear-gradient(to right, rgb(244, 117, 117), rgb(193, 23, 223));
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+}
+
+button {
+  color: black;
+  background-color: gold;
+  border: none;
+  padding: 15px 76px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 900;
+}
+.taco {
+  display: flex;
+  flex-direction: row;
+}
+
+.taco-image {
+  padding-left: 20px;
+}
+.taco-image img {
+  width: 790px;
+  height: 350px;
+}
+
+.taco-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin-top: -20px;
+}
+
+.taco-section {
+  background-color: gold;
+  padding: 20px;
+  width: 400px;
+  height: 125px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing {
+  font-size: 70px;
+  margin: -20px;
+  color: #333;
+}
+.item-name {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 0%;
+}
