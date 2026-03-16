@@ -1,0 +1,41 @@
+<!-- Problem: Write a program to find the grade value for the marks using switch—case control structure 
+
+e.g.  Input var  markgrade is A++ :  output  Excellent -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mysecondPage</title>
+  </head>
+  <body>
+    <script>
+          var markgrade = "F";
+
+      switch(markgrade){
+          case "A++":
+           document.writeln("Excellent");
+           break;
+          case "A":
+           document.writeln("Good");
+            break;
+          case "B":
+            document.writeln("Average");
+             break;
+          case "C":
+              document.writeln("Below Average");
+               break;
+          case "D":
+                document.writeln("Poor");
+                 break;
+          case "F":
+                document.writeln("Fail");
+                 break;
+          default:
+            document.writeln("Invalid Grade");
+
+      }
+    </script>
+  </body>
+</html>

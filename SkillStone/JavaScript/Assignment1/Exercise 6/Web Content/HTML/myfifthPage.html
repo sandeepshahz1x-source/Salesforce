@@ -1,0 +1,24 @@
+<!-- Objective: This is a demo to show how to write a java script method inside a HTML page. 
+
+Problem: Print the department chosen using for in loop control structures -->
+
+<!doctype html>
+<html>
+  <head>
+    <title>myfifthPage</title>
+  </head>
+  <body>
+    <script>
+      var departments = {
+        dept1: "Mechanical",
+        dept2: "Civil",
+        dept3: "Electrical",
+        dept4: "Computer Science",
+        dept5: "Hotel Management",
+      };
+      for (var i in departments) {
+        document.writeln(departments[i] + "<br>");
+      }
+    </script>
+  </body>
+</html>
